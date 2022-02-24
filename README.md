@@ -10,9 +10,9 @@ Simpel WhatsApp Bot
 > pkg install ffmpeg
 > pkg install imagemagick
 > pkg install libwebp
-> git clone https://github.com/saipulanuar/v11
-> cd v11
-> git clone https://github.com/saipulanuar/node_modules
+> git clone https://github.com/Ramdaniofficial/Ramdanii
+> cd v12
+> git clone https://github.com/Ramdaniofficial/node_modules
 > npm start
 ```
 
