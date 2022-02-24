@@ -34,8 +34,8 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6)
 
 ```
-> git clone https://github.com/saipulanuar/v11
+> git clone https://github.com/Ramdaniofficial/v12
 > cd v11
-> git clone https://github.com/saipulanuar/node_modules
+> git clone https://github.com/Ramdaniofficial/node_modules
 > npm start
 ```
